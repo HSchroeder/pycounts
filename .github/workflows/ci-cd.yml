@@ -32,6 +32,7 @@ jobs:
       with:
         file: ./coverage.xml    # coverage report
         fail_ci_if_error: true  # terminate workflow if there's an error
+        dry_run: true           # Do not upload just create
     # Step 8. Build documentation
     - name: Build documentation
       run: poetry run make html --directory docs/
