@@ -2,6 +2,9 @@
 
 Calculate word counts in a text file!
 
+The project is forked from https://github.com/TomasBeuzen/pycounts where it is used in the book "Python Packages" by Tomas Beuzen and Tiffany Timbers.
+It can be read online here: https://py-pkgs.org/
+
 ## Installation
 
 ```bash
